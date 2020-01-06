@@ -28,7 +28,7 @@ function printToScreen(responseJson) {
 };
 
 function watchButton() {
-    $('#submitButton').on('click', function(event) {
+    $('.dog-img-number').on('submit', function(event) {
         event.preventDefault();
         fetchDogImg();
         console.log('watchButton ran');
